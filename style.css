@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em;
+    height: 70vh;
+    background-color: #448aff;
+}
+h1, label, input, select {
+    font-size: 25px;
+    text-align: center;
+    width: 50vh;
+    margin: 5px auto;
+    border-radius: 15px;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 2em;
+}
+ input ,select{
+    background-color: #83b9ff;
+    padding: 1em;
+    font-size: larger;
+ }
+
+button{
+    background-color: black;
+    border-radius: 25px;
+    width: 20vh;
+    padding: 10px;
+    margin: 1rem auto;
+    color: aliceblue;
+}
+div{
+    font-size: 30px;
+    text-align: center;
+    background-color: #83b9ff;
+    border: black solid 3px;
+    border-radius: 10px;
+    margin:  1rem auto;
+    padding: 1rem;
+    
+
+}
+
+select{
+    text-align-last: center;
+    border-radius: 30px;
+    width: 10vh;
+}

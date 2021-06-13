@@ -9,7 +9,6 @@
     let resultMessage = ()=>{body.appendChild(myDiv).innerHTML= `The total is ${result}`}
  
     myButton.addEventListener('click', function(event){
-       event.preventDefault()
        const firstNum = parseInt(document.querySelector('#firstNum').value)
        const secondNum = parseInt(document.querySelector('#secondNum').value)
        const operator = document.querySelector('#operator').value
